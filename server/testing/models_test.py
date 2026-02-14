@@ -296,4 +296,4 @@ class TestSessionEndpoints:
         assert response.status_code == 404
         data = response.get_json()
         assert 'error' in data
-        assert data['error'] == 'Session not found'
+        assert data['error'] == 'Session not found' 
